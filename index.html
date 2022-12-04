@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Todo app - Ucamp</title>
+</head>
+<body>
+    <header class="header">
+        <div class="title-todo">
+            <p>todo app</p>
+        </div>
+    </header>
+    <main class="wrapper">
+        <section class="input-todo-section">
+            <input class="input-todo" type="text" placeholder="¿Que hay que hacer?">
+        </section>
+        <section class="todo-list-section">
+            <ul class="todo-list">
+                <!-- <li class="completed" data-id="abc">
+                    <div class="view">
+                        <input class="toggle" type="checkbox" checked>
+                        <label>Probar JavaScript</label>
+                        <button class="edit">Editar</button>
+                        <button class="destroy">Borrar</button>
+                    </div>
+                </li> -->
+            </ul>
+        </section>
+        <footer class="footer">
+            <!-- <span class="todo-count"><strong>0</strong> pendiente(s)</span> -->
+            <ul class="filters">
+                <li>
+                    <a class="selected filtro">Todos</a>
+                </li>
+                <li>
+                    <a class="filtro">Pendientes</a>
+                </li>
+                <li>
+                    <a class="filtro">Completados</a>
+                </li>
+            </ul>
+            <button class="clear-completed">Borrar completados</button>
+        </footer>
+    </main>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
